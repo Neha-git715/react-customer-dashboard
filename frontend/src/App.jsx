@@ -5,6 +5,7 @@ import "./App.css";
 
 const BATCH_SIZE = 20;
 
+
 function App() {
   const [customers, setCustomers] = useState([]);
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
